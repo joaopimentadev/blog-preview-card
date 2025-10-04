@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@media (min-width: 320px) {
+    /* Tudo aqui é mobile */
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Figtree", sans-serif;
+    }
+
+
+    body {
+        background-color: hsl(47, 88%, 63%);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: auto;
+        flex-direction: column;
+        gap: 20px;   
+    }
+
+    main {
+        background-color: white;
+        width: 300px;
+        height: 441px;
+        border-radius: 20px;
+        border: 1px solid #1E1E1E;
+        box-shadow: 8px 8px 0px 0px rgb(0,0,0);
+        padding: 24px;
+        
+    }
+
+    main div.ilustracao {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        background-image: url('assets/images/illustration-article.svg');
+        margin: 0 auto;
+    }
+
+    main div.categoria {
+        display: flex;
+        background-color: hsl(47, 88%, 63%);
+        width: 73px;
+        height: 5px;
+        text-align: center;
+        padding: 12px 4px;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+
+    main div p.categoria-texto {
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+    main p.data {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    main h1.titulo {
+        font-size: 20px;
+        font-weight: 800;
+        color: hsl(0, 0%, 7%);
+        margin-bottom: 12px;
+    }
+
+    main p.descricao {
+        color: hsl(0, 0%, 42%);
+        font-size: 14px;
+        font-weight: medium;
+        margin-bottom: 24px;
+        text-align: start;
+    }
+
+    main div.professor {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 149px;
+    }
+
+    main div img.avatar {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (min-width: 1440px) {
+    main {
+        width: 384px;
+        height: 430px;
+    }
+
+    main div p.categoria-texto {
+        font-size: 16px;
+    }
+
+    main p.data {
+        font-size: 15px;
+    }
+
+    main h1.titulo {
+        font-size: 25px;
+    }
+
+    main p.descricao {
+        font-size: 16px;
+    }
+}

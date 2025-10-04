@@ -1,32 +1,33 @@
-# Front-end Style Guide
+Guia de Estilo Front-end
+Layout
 
-## Layout
+Os designs foram criados com as seguintes larguras:
 
-The designs were created to the following widths:
+Mobile: 375px
 
-- Mobile: 375px
-- Desktop: 1440px
+Desktop: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+💡 Esses são apenas os tamanhos de referência do design. Certifique-se de que o conteúdo seja responsivo e atenda aos requisitos do WCAG testando em toda a faixa de tamanhos de tela, desde 320px até telas grandes.
 
-## Colors
+Cores
 
-- Yellow: hsl(47, 88%, 63%)
+Amarelo: hsl(47, 88%, 63%)
 
-- White: hsl(0, 0%, 100%)
+Branco: hsl(0, 0%, 100%)
 
-- Gray 500: hsl(0, 0%, 42%)
-- Gray 950: hsl(0, 0%, 7%)
+Cinza 500: hsl(0, 0%, 42%)
 
-## Typography
+Cinza 950: hsl(0, 0%, 7%)
 
-### Body Copy
+Tipografia
+Texto do corpo
 
-- Font size (paragraph): 16px
+Tamanho da fonte (parágrafo): 16px
 
-### Font
+Fonte
 
-- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
-- Weights: 500, 800
+Família: Figtree
 
-> 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code.
+Pesos: 500, 800
+
+💎 Este é um desafio gratuito +. Portanto, se quiser ver todos os detalhes do design e praticar usando ferramentas profissionais como o Figma, você pode baixar o arquivo de design no mesmo local de onde baixou o código inicial.
